@@ -1,0 +1,12 @@
+/* MADE BY PIYUSH AKOLIYA */
+
+.navigationBar {
+  color: #f9f5eb;
+}
+
+.navBarDiv,
+#offcanvasNavbar-expand-md {
+  background: #005c97;
+  background: -webkit-linear-gradient(to right, #363795, #005c97);
+  background: linear-gradient(to right, #363795, #005c97);
+}

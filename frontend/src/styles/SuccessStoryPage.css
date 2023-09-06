@@ -1,0 +1,12 @@
+/* MADE BY PIYUSH AKOLIYA */
+
+.jobSectorSearchArea {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2%;
+}
+
+h1 {
+  display: inline;
+}

@@ -1,0 +1,76 @@
+/* MADE BY PIYUSH AKOLIYA */
+
+.office-address-title {
+  font-size: 0.5em;
+  color: #eae3d2;
+}
+
+.footer-address {
+  text-align: center; /* Align the text to the center */
+  color: #eae3d2;
+}
+
+.footer {
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+  /* position: sticky; */
+  padding-bottom: 0.1em;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.3em 0em 1.1em 0em;
+}
+
+.office-contact-title,
+.office-faq-title {
+  font-size: 1.2em;
+  color: #eae3d2;
+  text-align: center;
+  padding-right: 9em;
+}
+
+.office-contact-title:hover {
+  cursor: pointer;
+}
+
+.office-faq-title:hover {
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.horizontal-line {
+  width: 50%;
+  height: 0;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-content,
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-address {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .office-contact-title,
+  .office-faq-title {
+    font-size: 0.8em;
+    color: #eae3d2;
+    padding: 0;
+  }
+}
